@@ -1,0 +1,76 @@
+{
+    "name": "Userinput",
+    "maps": [
+        {
+            "name": "Default",
+            "id": "d78a108a-4b19-44b4-8ce6-f4408ec23629",
+            "actions": [
+                {
+                    "name": "HideDialogBox",
+                    "type": "Button",
+                    "id": "f997ab4b-28ed-411f-8789-62cc8b8a84d4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "GoToMainMenu",
+                    "type": "Button",
+                    "id": "a29b425c-4891-4de7-bf26-4a37678d58d8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "33fff0e3-f0b7-4a12-8ba7-3938b435d945",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HideDialogBox",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f9f750e6-1bcd-4f26-a21f-564f29f02a93",
+                    "path": "<Touchscreen>/touch1/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HideDialogBox",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cb314d49-6d98-4f3f-9dc6-5866082168fb",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GoToMainMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "320f7d55-88e9-430a-8f47-c118f6fba633",
+                    "path": "<Touchscreen>/touch2/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GoToMainMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
